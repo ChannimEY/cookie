@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    main {
+      width: 100%;
+      background-color: lightblue;
+      height: 100vh;
+      position: relative;
+    }
+    div {
+      position: absolute;
+      width: 20%;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      right: 30px;
+      bottom: 45px;
+      padding: 24px;
+    }
+    h2 {
+      display: inline;
+      color: blue;
+      margin-bottom: 50px;
+    }
+    p {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    button {
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      margin: 10px 25px 0 0;
+    }
+    #p {
+      color: blue;
+      cursor: pointer;
+    }
+    #btn {
+      background: none;
+      outline: 1px solid blue;
+      color: blue;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      color: blue;
+    }
+  </style>
+  <body>
+    <main>
+      <div>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADjklEQVR4nO2Zy0tVURTGf5FdsweZNq0gEiIrTTIkCnKWNA3/h/6Jysqy0qyoyFk1T8uISG2Q0iwt0symmYFlaurAR3hjw3dgI/exz+Oe6+B+cAb37L3X4+y91vr2ulBAAQXEhWKgHmgCuoBRYBpYBpaA38B5BzlngR/AONBAjKgBOoAZIJnlue8gb9ya/z0G+6kGXq8xdAhoBc4BR4CdwCbgrcbNmnXjSAnQDvyTsjngJnAgw5oFzTVrs6FBzhgnzpAjVACfZNSyvr756tnwTWuqWAc4roBNKpD9GHVF654BG8izE/MyxmSkrT7XlwJjWt8J7CYPqLB24jGwMaCcPcCg5LwjZpRYMdEVwgkPV7Ok4WtKDM1EjHYrJvwep1QYkry6NOPzViaMDCbnr+iJKtvMylATM6nQLGfMzkUGr9iZFOsHmY7HnGRuC2HXe2DAD+0wCv861gnX4/FFYyYLBsUA0O86uUMKbwVQlOl4eDF3l5hY7IwUZqIdQVAparMYR5WvtwhgLnBP8sdz7UxTliBPADeAn8AE0KJ3rjBsuFc6FuVYnRJAKXBCdaY/LAN4LiWGiqdCS4p7hnnnBwk54DHodE9nGG42KiGH04xPpFBo3gWNmdvAsBLELPBBJHPQIpqmpm0BjgIPHG+aTElAWQyOZONmY2l26peLgCVNTvg4WtdzxJ12AJfl0IJ101yKwpGEnJlwCPaouVOxlSScj1Z5BIqj5k67ZJu5VoQO9nyiSraNuEzuypJ+84lGK5OFLoj5RLtsu+Ay+bQmf2T9YVi2nXLNDNOOpDHO9malbJoSzXHCI0caH6QruBfoU13oVeFzQZv0PMQHDBVYVf5PV+GDOtK3ppj2OKwpVxpfDcKYX0mR4UJRtje9Ipn0USzvaG43AXDEaj64NJ9d0etzR2pkg2nRHgqq1DuXX0M2DNbGSI925k2WGNlu9Y1NozwwNisNJ3VPKSI+FOkoJUXpTTYNhf2izUbgk5icKQKeSucksC8qwbVWT+pFhMcs3XHqthLBsagV1Fo7M6YUHTVqrJiYzIUT9jHz+rcr4j5R0P1ypdgVKyYiO06ZEkCrpXROvw8GpB1tVm1ZVnYKHdh+YO4rL1VtvZrwWbvUqNpTpttjQl+9WmPtFgFMSoaJC+NY3lAt/vPH4e/ptc+UuiLr4r9FDwnR60u6+IzI0CU9U9oFM3YROOmHxRZQQAGEwn93gmAqKYNWrwAAAABJRU5ErkJggg=="
+          alt="cookie"
+        />
+        <h2>Cookie Consent</h2>
+        <p>
+          This website uses cookies to help you have a superior and more
+          relevant browsing experience on the website.
+        </p>
+        <p id="p">Read more....</p>
+        <button>Accept</button>
+        <button id="btn">Decline</button>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
